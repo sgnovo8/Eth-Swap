@@ -10,6 +10,8 @@ contract EthSwap {
   string public name = "EthSwap Instant Exchange";
   Token public token;
   uint public rate = 100;
+  //bool public;??
+  
 
   event TokensPurchased(
     address account,
